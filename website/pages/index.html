@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>VPN Bot - a keybase bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easily spin up a VPN with keybase">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="VPNbot.com - Protect your privacy." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vpnbot.netlify.com" />
+    <meta property="og:image" content="https://i.imgur.com/lxHAWEE.png" />
+    <meta property="og:description" content="VPNbot allows you to securely provision Wireguard VPNs through a Keybase bot, and pay for them with Stellar."/>
+
+    <!-- Twitter Open Graph -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@tonigemayel" />
+    <meta name="twitter:creator" content="@tonigemayel" />
+    <meta property="og:url" content="https://vpnbot.netlify.com" />
+    <meta property="og:title" content="VPN Bot - Protect your privacy" />
+    <meta property="og:description" content="VPNbot allows you to securely provision Wireguard VPNs through a Keybase bot, and pay for them with Stellar." />
+    <meta property="og:image" content="https://i.imgur.com/lxHAWEE.png" />
+
+
+    <link href="assets/css/loaders/loader-typing.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/theme-desktop-app.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="preload" as="font" href="assets/fonts/Inter-UI-upright.var.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="assets/fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="loader">
+      <div class="loading-animation"></div>
+    </div>
+
+    <div class="navbar-container bg-primary-3">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary-3" data-sticky="top">
+        <div class="container">
+          <a class="navbar-brand fade-page" href="index.html">
+            <img src="assets/img/vpnbot3.svg" alt="VPN Bot">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <img class="icon navbar-toggler-open" src="assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
+            <img class="icon navbar-toggler-close" src="assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+            <a href="https://keybase.io/vpnbot"><img style="height: 2rem;" class="icon" src="assets/img/keybase.svg"></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <section class="bg-primary-3 text-light text-center has-divider header-desktop-app">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-8 col-md-9">
+            <h1 class="display-2">Protect your privacy.</h1>
+            <p class="lead">Your data belongs to you, not others. VPNbot allows you to securely provision Wireguard VPNs through a Keybase bot and pay for them with Stellar. </p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center mt-4">
+              <a href="https://keybase.io/vpnbot" class="btn btn-lg btn-primary mx-2 mb-2 mb-sm-0">Try it free</a>
+              <a href="https://coinlist.co/build/ideo/projects/3d113587-bb4e-4218-9299-56e06b348f84" class="btn btn-lg btn-outline-primary mx-2">
+                <span>Vote for us</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-6" data-aos="fade-up" data-delay="100">
+          <div class="col-lg-10">
+            <div class="rounded o-hidden">
+              <div class="plyr" data-plyr-provider="vimeo" data-plyr-embed-id="361677942"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider">
+        <img src="assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row mb-4 text-center">
+          <div class="col">
+            <h2 class="h1">Your data belongs to you, not others.</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-round bg-primary mx-auto mb-4">
+              <img class="icon bg-primary" src="assets/img/icons/theme/general/smile.svg" alt="icon" data-inject-svg />
+            </div>
+            <h4>Designed for you</h4>
+            <p class="lead mx-xl-3">Combining privacy, security, and distributed trust with a great user experience.</p>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-round bg-primary mx-auto mb-4">
+              <img class="icon bg-primary" src="assets/img/icons/theme/general/shield-protected.svg" alt="icon" data-inject-svg />
+            </div>
+            <h4>WireGuard VPN</h4>
+            <p class="lead mx-xl-3">VPNbot uses Wireguard, which is fast, secure, fully open source and easily configurable </p>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-round bg-primary mx-auto mb-4">
+              <img class="icon bg-primary" src="assets/img/icons/theme/code/spy.svg" alt="icon" data-inject-svg />
+            </div>
+            <h4>Protect your data</h4>
+            <p class="lead mx-xl-3">Your browsing data can be dangerous in the wrong hands, VPN bot helps keep you safe.</p>
+          </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row align-items-center justify-content-around o-hidden">
+          <div class="col-md-6 col-lg-5 mb-4 mb-md-0" data-aos="fade-right">
+            <img src="https://i.imgur.com/wbCVVV7.gif" alt="Image" class="rounded shadow">
+          </div>
+          <div class="col-lg-5 col-md-6" data-aos="fade-left">
+            <h3 class="h2">Pay with Stellar</h3>
+            <p class="lead">Stellar transactions complete in seconds so payments happen fast, like payments should. With Keybase's Stellar integration, payments are secure & simple enough that anyone can use it.  </p>
+            <a href="https://keybase.io/blog/keybase-stellar-launch" class="lead hover-arrow">Learn about Keybase + Stellar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-0">
+      <div class="container">
+        <div class="row align-items-center justify-content-around flex-row-reverse o-hidden">
+          <div class="col-md-6 col-lg-5 mb-4 mb-md-0" data-aos="fade-left">
+            <img src="https://i.imgur.com/NwoyAqK.jpg" alt="Image" class="rounded shadow">
+          </div>
+          <div class="col-lg-5 col-md-6" data-aos="fade-right">
+            <h3 class="h2">Own your data</h3>
+            <p class="lead">We couldn't sell your data to advertisers or other organizations even if we wanted to because we never store your data in the first place. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-primary-3 text-light has-divider jarallax" data-jarallax data-speed="0.2">
+      <div class="divider flip-y">
+        <img src="assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />
+      </div>
+      <img src="https://i.imgur.com/QNU4seE.jpg" alt="Image" class="jarallax-img opacity-20">
+      <div class="container">
+        <div class="row justify-content-center text-center min-vh-50 align-items-center">
+          <div class="col-xl-8 col-lg-9 col-md-10">
+            <h4 class="display-3">The right to privacy.</h4>
+            <p class="lead">Privacy is a fundamental human right. Whom you transact with and what you pay for is personal information that you have a right to keep private.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-primary-3 o-hidden has-divider">
+      <div class="container pb-4 text-light">
+        <div class="row justify-content-center text-center mb-6">
+          <div class="col-xl-8 col-lg-9">
+            <h2 class="display-4 mx-xl-6">Wall of love</h2>
+            <p class="lead">
+              Some people are pretty excited about VPN Bot.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="controls-light arrows-inside highlight-selected mb-6" data-flickity='{ "autoPlay": true, "imagesLoaded": true, "wrapAround": true }'>
+        <div class="carousel-cell col-xl-3 col-lg-4 col-md-5 col-9 pb-1">
+          <div class="card card-body">
+            <div class="mb-3 mb-md-4">
+              <img src="https://s3.amazonaws.com/keybase_processed_uploads/4074beaaaffc5e30c661f28cb57eca05_360_360.jpg" alt="Avatar" class="avatar avatar-lg">
+            </div>
+            <div class="flex-grow-1 pt-md-3">
+              <h4>
+          &ldquo;Cool idea.&rdquo;
+      </h4>
+            </div>
+            <div class="avatar-author d-block mt-2">
+              <h6>Chris Coyne</h6>
+              <span>via keybase</span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell col-xl-3 col-lg-4 col-md-5 col-9 pb-1">
+          <div class="card card-body">
+            <div class="mb-3 mb-md-4">
+              <img src="https://i.imgur.com/HKz4Abo.jpg" alt="Avatar" class="avatar avatar-lg">
+            </div>
+            <div class="flex-grow-1 pt-md-3">
+              <h4>
+          &ldquo;Honestly love this idea, it's something I considered building myself.&rdquo;
+      </h4>
+            </div>
+            <div class="avatar-author d-block mt-2">
+              <h6>David Haukeness</h6>
+              <span>via keybase</span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell col-xl-3 col-lg-4 col-md-5 col-9 pb-1">
+          <div class="card card-body">
+            <div class="mb-3 mb-md-4">
+              <img src="https://i.imgur.com/FfJSmG5.jpg" alt="Avatar" class="avatar avatar-lg">
+            </div>
+            <div class="flex-grow-1 pt-md-3">
+              <h4>
+          &ldquo;Really cool use of WireGuard and Keybase&rdquo;
+      </h4>
+            </div>
+            <div class="avatar-author d-block mt-2">
+              <h6>Mike Coughlin</h6>
+              <span>via Twitter</span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell col-xl-3 col-lg-4 col-md-5 col-9 pb-1">
+          <div class="card card-body">
+            <div class="mb-3 mb-md-4">
+              <img src="https://i.imgur.com/RtZB6un.png" alt="Avatar" class="avatar avatar-lg">
+            </div>
+            <div class="flex-grow-1 pt-md-3">
+              <h4>
+          &ldquo;This is really cool. A beautifully simple product.&rdquo;
+      </h4>
+            </div>
+            <div class="avatar-author d-block mt-2">
+              <h6>YaBoyMalloy</h6>
+              <span>via Twitter</span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell col-xl-3 col-lg-4 col-md-5 col-9 pb-1">
+          <div class="card card-body">
+            <div class="mb-3 mb-md-4">
+              <img src="https://i.imgur.com/mHPcBme.png" alt="Avatar" class="avatar avatar-lg">
+            </div>
+            <div class="flex-grow-1 pt-md-3">
+              <h4>
+          &ldquo;You spent your weekend building a VPN? What's that sweetie?.&rdquo;
+      </h4>
+            </div>
+            <div class="avatar-author d-block mt-2">
+              <h6>My mother</h6>
+              <span>via a phone call</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider">
+        <img src="assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />
+      </div>
+    </section>
+
+    <footer class="pb-5 bg-primary text-light">
+          <div class="container">
+            <div class="row mb-4 justify-content-center">
+              <div class="col-auto">
+                <a href="index.html">
+                  <img src="assets/img/vpnbot3.svg" alt="VPN Bot" class="icon icon-lg">
+                </a>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col">
+                <ul class="nav justify-content-center">
+                  <li class="nav-item"><a href="#" class="nav-link">Built by two cousins in San Francisco, CA.</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row justify-content-center mt-5 mb-5">
+              <div class="col">
+                <ul class="nav justify-content-center avatars">
+                  <li>
+                    <img src="https://i.imgur.com/Sa8L1cb.png" alt="Daniel" class="avatar">
+                  </li>
+                  <li>
+                    <img src="https://i.imgur.com/rtgplD8.png" alt="Toni Gemayel" class="avatar">
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row justify-content-center mt-5 mb-5">
+              <div class="col-auto">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="https://twitter.com/tonigemayel" class="nav-link">
+                      <svg class="icon undefined" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>Twitter icon</title>
+                        <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path>
+                      </svg>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+    <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
+      <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
+    </a>
+    <!-- Required vendor scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+
+    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+    <!-- Clipboard (copies content from browser into OS clipboard) -->
+    <script type="text/javascript" src="assets/js/clipboard.js"></script>
+    <!-- Fancybox (handles image and video lightbox and galleries) -->
+    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+    <!-- Flatpickr (calendar/date/time picker UI) -->
+    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
+    <!-- Flickity (handles touch enabled carousels and sliders) -->
+    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
+    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+    <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
+    <!-- Isotope (masonry layouts and filtering) -->
+    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- jarallax (parallax effect and video backgrounds) -->
+    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
+    <!-- jQuery Countdown (displays countdown text to a specified date) -->
+    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+    <!-- jQuery smartWizard facilitates steppable wizard content -->
+    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+    <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
+    <!-- Prism (displays formatted code boxes) -->
+    <script type="text/javascript" src="assets/js/prism.js"></script>
+    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+    <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
+    <!-- Smooth scroll (animation to links in-page)-->
+    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
+    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+    <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
+    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+    <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
+    <!-- Typed text (animated typing effect)-->
+    <script type="text/javascript" src="assets/js/typed.min.js"></script>
+    <!-- Required theme scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/theme.js"></script>
+    <!-- Removes page load animation when window is finished loading -->
+    <script type="text/javascript">
+      window.addEventListener("load", function () {    document.querySelector('body').classList.add('loaded');  });
+    </script>
+
+  </body>
+
+</html>
